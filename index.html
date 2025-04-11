@@ -12,23 +12,238 @@
         <div class="row">
             <!-- Caja 1 - Siempre visible -->
             <div id="caja1" class="columna d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none"></div>
-            <div id="caja11" class="columna d-none d-md-block col-md-2 col-lg-2 col-xl-2 col-xxl-2">kathe2912</div>
+            <div id="caja11" class="columna d-none d-md-block col-md-2 col-lg-2 col-xl-2 col-xxl-2"></div>
             
             <!-- Contenedor de Caja 2 y Caja 3 -->
             <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
                 <div class="row">
-                    <div id="caja2" class="columna d-xs-block d-md-none d-lg-none d-xl-none d-xxl-none"></div>
-                    <div id="caja3" class="columna col-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6">
-                        <h2>Origin</h2>
+                    <!--Aquí esta las burbujas de estado de Instagram para movile -->
+                    <div id="caja2" class="columna d-xs-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                        <button class="scroll-btn scroll-left" onclick="scrollStories('left')"> &#10094;</button>
+                        <div class="storyScroll" id="storyScroll">
+                            <div class="storys">
+                                <div class="burbujasS">
+                                  <img src="imagenes/usuario1.jpg" alt="usuario1"> 
+                                </div>
+                                <div class="nameUser">usuario1</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                   <img src="imagenes/usuario2.jpg" alt="usuario2"> 
+                                </div>
+                                <div class="nameUser">usuario2</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                   <img src="imagenes/usuario3.jpg" alt="usuario3"> 
+                                </div>
+                                <div class="nameUser">Usuario 3</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                   <img src="imagenes/usuario4.jpg" alt="usuario4"> 
+                                </div>
+                                <div class="nameUser">Usuario 4</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                   <img src="imagenes/usuario5.jpg" alt="usuario5"> 
+                                </div>
+                                <div class="nameUser">Usuario 5</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                    <img src="imagenes/usuario6.jpg" alt="usuario6"> 
+                                </div>
+                                <div class="nameUser">Usuario 6</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                    <img src="imagenes/usuario7.jpg" alt="usuario7"> 
+                                </div>
+                                <div class="nameUser">Usuario 7</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                    <img src="imagenes/usuario8.jpg" alt="usuario8"> 
+                                </div>
+                                <div class="nameUser">Usuario 8</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                    <img src="" alt="usuario9"> 
+                                </div>
+                                <div class="nameUser">Usuario 9</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                    <img src="" alt="usuario10"> 
+                                </div>
+                                <div class="nameUser">Usuario 10</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                    <img src="" alt="usuario11"> 
+                                </div>
+                                <div class="nameUser">Usuario 11</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                    <img src="" alt="usuario12"> 
+                                </div>
+                                <div class="nameUser">Usuario 12</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                    <img src="" alt="usuario13"> 
+                                </div>
+                                <div class="nameUser">Usuario 13</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                    <img src="" alt="usuario14"> 
+                                </div>
+                                <div class="nameUser">Usuario 14</div>
+                            </div>
+                            <div class="storys">
+                                <div class="burbujasS">
+                                    <img src="" alt="usuario15"> 
+                                </div>
+                                <div class="nameUser">Usuario 15</div>
+                            </div>
+                        </div>
+                        <button class="scroll-btn scroll-right" onclick="scrollStories('right')"> &#10095;</button>
                     </div>
-                    <div id="caja33" class="columna col-12 d-md-none d-lg-none d-xl-block col-xl-6 col-xxl-6"></div>
+                    <div id="caja3" class="columna col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6">
+                        <div class="storia d-none d-md-block">
+                            <button class="scroll-btn scroll-left" onclick="scrollStories('left')"> &#10094;</button>
+                            <div class="storyScroll" id="storyScroll1">
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                      <img src="imagenes/usuario1.jpg" alt="usuario1"> 
+                                    </div>
+                                    <div class="nameUser">usuario1</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                       <img src="imagenes/usuario2.jpg" alt="usuario2"> 
+                                    </div>
+                                    <div class="nameUser">usuario2</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                       <img src="imagenes/usuario3.jpg" alt="usuario3"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 3</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                       <img src="imagenes/usuario4.jpg" alt="usuario4"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 4</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                       <img src="imagenes/usuario5.jpg" alt="usuario5"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 5</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                        <img src="imagenes/usuario6.jpg" alt="usuario6"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 6</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                        <img src="imagenes/usuario7.jpg" alt="usuario7"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 7</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                        <img src="imagenes/usuario8.jpg" alt="usuario8"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 8</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                        <img src="" alt="usuario9"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 9</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                        <img src="" alt="usuario10"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 10</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                        <img src="" alt="usuario11"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 11</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                        <img src="" alt="usuario12"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 12</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                        <img src="" alt="usuario13"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 13</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                        <img src="" alt="usuario14"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 14</div>
+                                </div>
+                                <div class="storys">
+                                    <div class="burbujasS">
+                                        <img src="" alt="usuario15"> 
+                                    </div>
+                                    <div class="nameUser">Usuario 15</div>
+                                </div>
+                            </div>
+                            <button class="scroll-btn scroll-right" onclick="scrollStories('right')"> &#10095;</button>
+                        </div>
+                    </div>
+                    <div id="caja33" class="columna col-12 d-md-none d-lg-none d-xl-block col-xl-6 col-xxl-6"> </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"> </script>
     
+    <script>
+         function scrollStories(direction){
+            const container = document.getElementById('storyScroll');
+            const scrollAmount = 150;
+
+            if (direction === 'left') {
+                container.scrollBy({ left: -scrollAmount, behavior: 'smooth'});
+            } else if (direction === 'right') {
+                container.scrollBy({ left: scrollAmount, behavior: 'smooth'});
+            }
+        }
+    </script>
+    <script>
+            function scrollStories(direction){
+               const container = document.getElementById('storyScroll1');
+               const scrollAmount = 150;
+   
+               if (direction === 'left') {
+                   container.scrollBy({ left: -scrollAmount, behavior: 'smooth'});
+               } else if (direction === 'right') {
+                   container.scrollBy({ left: scrollAmount, behavior: 'smooth'});
+               }
+           }
+    </script>
 </body>
 </html>
+    
